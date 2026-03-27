@@ -1,6 +1,6 @@
 pkgname=bristol
-pkgver=0.60.11
-pkgrel=4
+pkgver=0.60.12
+pkgrel=1
 pkgdesc="Vintage synthesizers emulator"
 arch=(i686 x86_64)
 url="http://bristol.sourceforge.net"
@@ -8,7 +8,7 @@ license=('GPL')
 makedepends=('gcc')
 depends=('jack' 'libx11')
 options=(!libtool)
-source=("$pkgname-$pkgver::git+https://github.com/majorx234/bristol-fixes.git#branch=develop")
+source=("$pkgname-$pkgver::git+https://github.com/majorx234/bristol-fixes.git#tag=v$pkgver")
 
 sha256sums=(SKIP)
 
